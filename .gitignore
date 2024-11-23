@@ -1,0 +1,53 @@
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+bun.lockb
+yarn.lock
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+logs/
+*.log
+
+# FastAPI / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.env.*
+.Python
+build/
+*.db
+*.sqlite
+*.sqlite3
+migrations/
+
+# Common
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.backup
+*.~lock.*
+coverage/
+*.coverage
+.cache/
+*.cache/
+*.temp
+*.log
+*.log.*
+
+# Bun.js
+bun.lockb
+
+# Moonrepo
+.moon/cache/

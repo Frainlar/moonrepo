@@ -1,0 +1,8 @@
+vcs:
+  manager: 'git'
+  defaultBranch: 'main'
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+
+projects:
+  clientcodegenie: 'apps/clientcodegenie'
+  servercodegenie: 'apps/servercodegenie'

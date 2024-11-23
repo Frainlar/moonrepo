@@ -1,0 +1,10 @@
+node:
+  version: '22.11.0'
+  packageManager: 'bun'
+  bun:
+    version: 'latest'
+
+python:
+  version: '3.10.0'
+  packageManager: 'pip'
+  plugin: 'moon-python' 

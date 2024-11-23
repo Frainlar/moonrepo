@@ -1,0 +1,29 @@
+type: 'app'
+language: 'typescript'
+
+project:
+  name: 'clientcodegenie'
+  description: 'A Next.js application using Bun.js.'
+  channel: '#nextjs'
+  owner: 'frontend.team'
+  maintainers: ['frontend.maintainer']
+
+tasks:
+  build:
+    command: 'bun run next build'
+    inputs:
+      - 'pages/**/*'
+      - 'components/**/*'
+      - 'public/**/*'
+      - 'styles/**/*'
+    outputs:
+      - '.next'
+  dev:
+    command: 'bun run next dev'
+    inputs:
+      - 'pages/**/*'
+      - 'components/**/*'
+      - 'public/**/*'
+      - 'styles/**/*'
+  install:
+    command: 'bun install'

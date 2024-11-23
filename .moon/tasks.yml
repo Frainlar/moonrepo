@@ -1,0 +1,17 @@
+tasks:
+  format:
+    command: 'prettier --check .'
+  lint:
+    command: 'eslint .'
+  test:
+    command: 'jest'
+  typecheck:
+    command: 'tsc --build'
+  client-dev:
+    command: 'moon run clientcodegenie:dev'
+  client-build:
+    command: 'moon run clientcodegenie:build'
+  server-serve:
+    command: 'moon run servercodegenie:serve'
+  server-build:
+    command: 'moon run servercodegenie:build'
